@@ -20,13 +20,27 @@
             display: flex;
             justify-content: center;
             margin: 1rem;
+            
         }
+        
 
         .Tabela4 {
             display: flex;
             justify-content: center;
             margin: 1rem;
         }
+        @media (max-width: 768px) {
+  /* Estilos para telas menores */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para telas médias */
+}
+
+@media (min-width: 1025px) {
+  /* Estilos para telas maiores */
+}
+
     </style>
 </head>
 
@@ -52,22 +66,11 @@
 <div class="Tabela2">
     <table width="30%" height="500px" border="4" cellspacing="5">
         <tr height="20%">
-            <td colspan="5"></td>
+            <td bgcolor="#FFCCFF" colspan="5"></td>
         </tr>
         <tr height="20%">
-            <td rowspan="5" width="20%"></td>
+            <td bgcolor="#FFCCFF" rowspan="5" width="20%"></td>
             <td width="20%"></td>
-            <td width="20%"></td>
-            <td width="20%"></td>
-            <td width="20%"></td>
-        </tr>
-        <tr height="20%">
-            <td width="20%"></td>
-            <td width="20%"></td>
-            <td rowspan="2" width="20%"></td>
-            <td width="20%"></td>
-        </tr>
-        <tr height="20%">
             <td width="20%"></td>
             <td width="20%"></td>
             <td width="20%"></td>
@@ -75,47 +78,56 @@
         <tr height="20%">
             <td width="20%"></td>
             <td width="20%"></td>
+            <td bgcolor="#FFCCFF" rowspan="2" width="20%"></td>
             <td width="20%"></td>
+        </tr>
+        <tr height="20%">
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+        </tr>
+        <tr height="20%">
+            <td bgcolor="#FFCCFF" colspan="3" width="20%"></td>
+            
             <td width="20%"></td>
         </tr>
     </table>
 </div>
 
     <div class="Tabela3">
-      <table height="270px" border="2" width="30%" align="center">
-          <tr name="linha-1">
-              <td colspan="4" align="center">
-                <strong>
-                  <font face="verdana" size="2">
-                      Configuração dos Apartamentos
-                  </font>
-                </strong>  
-              </td>
-          </tr>
-  
-          <tr  name="linha-3">
-              <td align="center" colspan="2"><font><strong>Todos</strong></font></td>
-              <td align="center" colspan=""><font><strong>Standard</strong></font></td>
-              <td align="center" ><font><strong>Luxo</strong></font></td>
-          </tr>
-  
-          <tr name="linha-4">
-              <td colspan="2" align="left">Ar Condicionado <br> Frigobar</td>
-              <td>17m² <br> TV 14"</td>
-              <td>21m² <br> TV 21"</td>
-          </tr>
-  
-          <tr name="linha-5">
-              <td rowspan="2" align="left"><strong>Diária por <br> temporada</strong></td>
-              <td align="center"><strong>Alta</strong></td>
-              <td align="center">R$200,00</td>
-              <td align="center">R$250,00</td>
-          </tr>
-          <tr name="linha-5">
-              <td align="center"><strong>Baixa</strong></td>
-              <td align="center">R$120,00</td>
-              <td align="center">R$180,00</td>
-          </tr>
+      <table border="2" width="50%"  align=center >
+        <tr name="linha-1" bgcolor="lightblue">
+          <td colspan="4" align="center">
+            <font face="verdana" size="2">
+              Configuração dos Apartamentos
+            </font>
+          </td> 
+        </tr>
+                    
+        <tr name="linha-3" bgcolor="lightgreen">
+          <td colspan="2"><font><strong>Todos</strong></font>
+            <td colspan=""><font><strong>Standard</strong></font></td>
+          <td><font><strong>Luxo</strong></font></td>
+        </tr>
+    
+            <tr name="linha-4" bgcolor="lightcoral">
+          <td colspan="2">Ar Condicionado <br> Frigobar
+          </td>
+          <td >17m² <br> TV 14"</td>	
+          <td >21m² <br> TV 21"</td>
+        </tr>
+    
+            <tr name="linha-5" bgcolor="lightpink">
+          <td rowspan="2"><strong>Diária por <br> temporada</strong></td>
+          <td><strong>Alta</strong></td>
+          <td >R$200,00</td>
+          <td >R$250,00</td>
+        </tr>
+        <tr name="linha-6" bgcolor="lightyellow">
+          <td><strong>Baixa</strong></td>
+          <td >R$120,00</td>
+          <td >R$180,00</td>
+        </tr>
       </table>
   </div>
   
